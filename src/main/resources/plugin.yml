@@ -1,0 +1,15 @@
+name: PowerBooks
+version: 1.0.0
+main: com.powerbooks.PowerBooks
+api-version: '1.21'
+author: PowerBooks-SMP
+description: Reusable Power Book and Dragon Book abilities
+commands:
+  powerbooks:
+    description: Give Power Books
+    usage: /powerbooks <power|dragon>
+    permission: powerbooks.admin
+permissions:
+  powerbooks.admin:
+    description: Allows giving Power Books
+    default: op
